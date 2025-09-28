@@ -1,10 +1,11 @@
 import './App.css';
+import profilePicture from './assets/profile_picture.jpg';
 
 function App() {
   return (
     <>
       <header>
-        <img src="" alt="" />
+        <img src={profilePicture} alt="Foto do perfil" />
         <h1>Vinícius Ferreira</h1>
         <p>Desenvolvimento Web & Análise de Dados</p>
       </header>
