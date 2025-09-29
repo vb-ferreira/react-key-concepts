@@ -1,8 +1,8 @@
-function GoalItem() {
+function GoalItem({ children, title }) {
   return (
     <li>
-      <h2>Entender o React</h2>
-      <p>Compreender como a biblioteca funciona por baixo dos panos.</p>
+      <h2>{title}</h2>
+      <p>{children}</p>
     </li>
   );
 }
