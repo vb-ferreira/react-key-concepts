@@ -1,16 +1,8 @@
-# React + Vite
+# Activity 5.1: Showing a Conditional Error Message
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nesta atividade, você criará um formulário básico que permite aos usuários inserir seus endereços de e-mail. Após o envio do formulário, a entrada do usuário deverá ser validada e endereços de e-mail inválidos (para simplificar, aqui, endereços de e-mail sem o símbolo @) deverão gerar uma mensagem de erro exibida abaixo do formulário. Quando endereços de e-mail inválidos forem validados, mensagens de erro potencialmente visíveis deverão ser removidas novamente.
 
-Currently, two official plugins are available:
+Siga as seguintes etapas para concluir esta atividade:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Crie uma interface de usuário que contenha um formulário com um label, um input (do tipo texto — para facilitar a inserção de endereços de e-mail incorretos para fins de demonstração) e um botão de envio que leve ao envio do formulário.
+- Colete o endereço de e-mail inserido e exiba uma mensagem de erro abaixo do formulário se o endereço de e-mail não contiver o símbolo @.
